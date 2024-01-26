@@ -20,7 +20,8 @@ body{
 /*navbar*/
 .nav-container{
    display: flex;
-   margin: 10px;
+   padding-left: 4rem;
+   padding-right: 4rem;
 }
 .nav-items{
 	margin: 0;
@@ -40,7 +41,51 @@ body{
     color: #E5E7EB;
 	font-size: 18px;
 }
+/*hero-container*/
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
 
+}
+.hero-message{
+    flex: 50%;
+}
+/*main hero text*/
+.maintext{
+    font-weight: bolder;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+/*hero subtext*/
+.subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+/* hero button*/
+.hero-button{
+    background-color: #3882F6;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+}
+/*hero image*/
+.hero-image{
+    flex: 50%;
+    padding-left: 2rem;
+    padding-top: 3rem;
+}
+.hero-img-text{
+    color: #E5E7EB;
+    text-align: center;
+}
+/*rectangle shape*/
+.rectangle {
+    height: 200px;
+    width: 350px;
+    background-color: #f7eeee41;
+  }
 
 
 
