@@ -1,0 +1,48 @@
+/*body*/
+body{
+  font-family: 'Roboto'; 
+  width: 100%;
+  padding: 0;
+  margin: 0; 
+}
+/*wrapper*/
+.wrapper{
+    background-color: #1F2937;
+}
+/*logo*/
+.logo a{
+    color: #F9FAF8;
+    font-size: 24px;
+    margin: 0;
+    text-decoration: none;
+    padding: 1em;
+}
+/*navbar*/
+.nav-container{
+   display: flex;
+   margin: 10px;
+}
+.nav-items{
+	margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    flex: 50%;
+    
+
+}
+
+.nav-items a {
+	padding: 1em;
+	display: block;
+    text-decoration: none;
+    color: #E5E7EB;
+	font-size: 18px;
+}
+
+
+
+
+
+
