@@ -90,7 +90,7 @@ body{
     background-color: #f7eeee41;
   }
 
-/*columns*/
+/*4 columns*/
 .column-info{
     height: 350px;
     display: flex;
@@ -123,6 +123,77 @@ body{
     width: 125px;
     margin: 8px;  
 }
+
+/*Quote section*/
+.quote{
+    padding: 4rem;
+    background-color: #E5E7EB;
+}
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-family: 'Flama Light Italic', sans-serif;
+    color: #1F2937;
+    width: 55%;
+    padding-top: 128px;
+    padding-bottom: 0;
+}
+
+.quote-author {
+    display: flex;
+    font-weight: bold;
+    padding-bottom: 100px;
+    padding-left: 500px;
+    font-size: 24px;
+}
+
+/*call to action*/
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    background-color: #3882F6;
+    width: 70%;
+    margin: 100px;
+    border-radius: 10px;
+}
+
+.call-to-action-text {
+    color:#F9FAF8;
+    padding: 0;
+    margin:0;
+    font-size: 24px;
+}
+
+.call-to-action-text-two {
+    color:#E5E7EB;
+    font-size: 16px;
+}
+
+.call-to-action-button {
+    display: flex;
+    width: 100px;
+}
+
+.call-to-action-button button {
+    background-color: #3882F6;
+    color:#F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    width: 120px;
+    padding: 0;
+    margin: 0;
+}
+
+.call-to-action-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    padding: 40px;
+}
+
+
+
+
 
 
 
